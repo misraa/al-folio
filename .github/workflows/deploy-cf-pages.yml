@@ -40,6 +40,6 @@ jobs:
         with:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
-          projectName: your-cloudflare-pages-project-name # REPLACE THIS!
+          projectName: my-website
           directory: _site # The directory to publish
           gitHubToken: ${{ secrets.GITHUB_TOKEN }} # Automatically provided by GitHub
