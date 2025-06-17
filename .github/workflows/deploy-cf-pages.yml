@@ -1,0 +1,45 @@
+name: Build al-folio & Deploy to Cloudflare Pages
+
+on:
+  push:
+    branches:
+      - main # Trigger this workflow on pushes to your main branch
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest # GitHub-hosted runners include ImageMagick
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: '3.x' # Use the latest stable Ruby or match al-folio's requirement
+          bundler-cache: true # Installs gems from Gemfile.lock
+
+      # ImageMagick is pre-installed on ubuntu-latest runners.
+      # You can add a diagnostic step if you wish, but no explicit installation is needed.
+      # - name: Check ImageMagick installation
+      #   run: convert --version
+
+      - name: Install Jekyll dependencies
+        run: bundle install
+
+      - name: Build Jekyll site with al-folio plugins
+        run: bundle exec jekyll build
+
+      - name: Upload artifact (your _site directory)
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: _site # The directory containing your built site
+
+      - name: Deploy to Cloudflare Pages
+        uses: cloudflare/pages-action@v1 # Use Cloudflare's official action
+        with:
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          projectName: your-cloudflare-pages-project-name # REPLACE THIS!
+          directory: _site # The directory to publish
+          gitHubToken: ${{ secrets.GITHUB_TOKEN }} # Automatically provided by GitHub
