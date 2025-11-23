@@ -30,7 +30,7 @@ latest_posts:
 ---
 
 <div class="bio">
-  <p>I'm an <strong>Applied Scientist at Adobe Inc.</strong>, developing <strong>Generative AI</strong> models for creative applications. My contributions span across Firefly, Lightroom, Premiere Pro, After Effects, and Express, empowering people to tell their stories. My current research interests lean towards <strong> Multi-Modal systems</strong> and <strong>Representation Learning</strong>.</p>
+  <p>I'm an <strong>Applied Scientist at Adobe Inc.</strong>, developing <strong>Generative AI</strong> models for creative applications. My contributions span across Firefly, Lightroom, Premiere Pro, After Effects, and Express, empowering people to tell their stories. My current research interests lean towards <strong>representations</strong> and <strong> multi-modal systems</strong>.</p>
   
   <p>I obtained my <strong>Master's in Computer Science</strong> from Columbia University and a <strong>Bachelor's in Electronics and Communication</strong> from the National Institute of Technology, Surat.</p>
 

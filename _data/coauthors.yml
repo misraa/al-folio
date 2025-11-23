@@ -1,34 +1,84 @@
-"adams":
-  - firstname: ["Edwin", "E.", "E. P.", "Edwin Plimpton"]
-    url: https://en.wikipedia.org/wiki/Edwin_Plimpton_Adams
 
-"podolsky":
-  - firstname: ["Boris", "B.", "B. Y.", "Boris Yakovlevich"]
-    url: https://en.wikipedia.org/wiki/Boris_Podolsky
+"aminian":
+  - firstname: ["Ali"]
+    url: https://www.linkedin.com/in/aliiaminian/
 
-"rosen":
-  - firstname: ["Nathan", "N."]
-    url: https://en.wikipedia.org/wiki/Nathan_Rosen
+"aggarwal":
+  - firstname: ["Pranav"]
+    url: https://scholar.google.com/citations?user=GBzNvsMAAAAJ&hl=en
 
-"bach":
-  - firstname: ["Johann Sebastian", "J. S."]
-    url: https://en.wikipedia.org/wiki/Johann_Sebastian_Bach
+"agarwala":
+  - firstname: ["Aseem"]
+    url: https://www.agarwala.org/
+  
+"kale":
+  - firstname: ["Ajinkya", "Ajinkya G."]
+    url: https://www.linkedin.com/in/kaleajinkya/
 
-  - firstname: ["Carl Philipp Emanuel", "C. P. E."]
-    url: https://en.wikipedia.org/wiki/Carl_Philipp_Emanuel_Bach
 
-"przibram":
-  - firstname: ["Karl"]
-    url: https://link.springer.com/article/10.1007/s00016-019-00242-z
+"harikumar":
+  - firstname: ["Midhun"]
+    url: https://www.linkedin.com/in/midhun-harikumar-9574b524/
 
-"schrodinger":
-  - firstname: ["Erwin"]
-    url: https://en.wikipedia.org/wiki/Erwin_Schr%C3%B6dinger
+"lin":
+  - firstname: ["Zhe"]
+    url: https://sites.google.com/site/zhelin625/home
+  
+"kolkin":
+  - firstname: ["Nick"]
+    url: https://home.ttic.edu/~nickkolkin/home.html
 
-"lorentz":
-  - firstname: ["Hendrik Antoon"]
-    url: https://en.wikipedia.org/wiki/Hendrik_Lorentz
+"upla":
+  - firstname: ["Kishor", "Kishor P."]
+    url: https://scholar.google.com/citations?user=6C287fwAAAAJ&hl=en
+  
+"chudasama":
+  - firstname: ["Vishal", "Vishal M."]
+    url: https://scholar.google.com/citations?user=5oIEa0EAAAAJ&hl=en
 
-"planck":
-  - firstname: ["Max"]
-    url: https://en.wikipedia.org/wiki/Max_Planck
+"shechtman":
+  - firstname: ["Eli"]
+    url: https://research.adobe.com/person/eli-shechtman/
+
+"dhakad":
+  - firstname: ["Saurav", "Saurav Singh"]
+    url: https://scholar.google.com/citations?user=M-AQBvMAAAAJ&hl=en
+
+"ravi":
+  - firstname: ["Hareesh"]
+    url: https://hareesh-ravi.github.io/
+
+"garg":
+  - firstname: ["Kshitiz"]
+    url: https://scholar.google.com/citations?user=tWU6p0cAAAAJ&hl=en
+
+# "podolsky":
+#   - firstname: ["Boris", "B.", "B. Y.", "Boris Yakovlevich"]
+#     url: https://en.wikipedia.org/wiki/Boris_Podolsky
+
+# "rosen":
+#   - firstname: ["Nathan", "N."]
+#     url: https://en.wikipedia.org/wiki/Nathan_Rosen
+
+# "bach":
+#   - firstname: ["Johann Sebastian", "J. S."]
+#     url: https://en.wikipedia.org/wiki/Johann_Sebastian_Bach
+
+#   - firstname: ["Carl Philipp Emanuel", "C. P. E."]
+#     url: https://en.wikipedia.org/wiki/Carl_Philipp_Emanuel_Bach
+
+# "przibram":
+#   - firstname: ["Karl"]
+#     url: https://link.springer.com/article/10.1007/s00016-019-00242-z
+
+# "schrodinger":
+#   - firstname: ["Erwin"]
+#     url: https://en.wikipedia.org/wiki/Erwin_Schr%C3%B6dinger
+
+# "lorentz":
+#   - firstname: ["Hendrik Antoon"]
+#     url: https://en.wikipedia.org/wiki/Hendrik_Lorentz
+
+# "planck":
+#   - firstname: ["Max"]
+#     url: https://en.wikipedia.org/wiki/Max_Planck

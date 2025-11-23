@@ -1,115 +1,246 @@
 ---
 ---
 
-@string{aps = {American Physical Society,}}
 
-@book{einstein1920relativity,
-  title={Relativity: the Special and General Theory},
-  author={Einstein, Albert},
-  year={1920},
-  publisher={Methuen & Co Ltd},
-  html={relativity.html}
-}
-
-@book{einstein1956investigations,
+@INPROCEEDINGS{misraa2017helmet,
   bibtex_show={true},
-  title={Investigations on the Theory of the Brownian Movement},
-  author={Einstein, Albert},
-  year={1956},
-  publisher={Courier Corporation},
-  preview={brownian-motion.gif}
-}
+  abbr={Paper},
+  author={Mistry, Jimit and Misraa, Aashish K. and Agarwal, Meenu and Vyas, Ayushi and Chudasama, Vishal M. and Upla, Kishor P.},
+  booktitle={2017 Seventh International Conference on Image Processing Theory, Tools and Applications (IPTA)}, 
+  title={An automatic detection of helmeted and non-helmeted motorcyclist with license plate extraction using convolutional neural network}, 
+  year={2017},
+  volume={},
+  number={},
+  pages={1-6},
+  abstract={Detection of helmeted and non-helmeted motorcyclist is mandatory now-a-days in order to ensure the safety of riders on the road. However, due to many constraints such as poor video quality, occlusion, illumination, and other varying factors it becomes very difficult to detect them accurately. In this paper, we introduce an approach for automatic detection of helmeted and non-helmeted motorcyclist using convolutional neural network (CNN). During the past several years, the advancements in deep learning models have drastically improved the performance of object detection. One such model is YOLOv2 [1] which combines both classification and object detection in a single architecture. Here, we use YOLOv2 at two different stages one after another in order to improve the helmet detection accuracy. At the first stage, YOLOv2 model is used to detect different objects in the test image. Since this model is trained on COCO dataset, it can detect all classes of the COCO dataset. In the proposed approach, we use detection of person class instead of motorcycle in order to increase the accuracy of helmet detection in the input image. The cropped images of detected persons are used as input to second YOLOv2 stage which was trained on our dataset of helmeted images. The non-helmeted images are processed further to extract license plate by using OpenALPR. In the proposed approach, we use two different datasets i.e., COCO and helmet datasets. We tested the potential of our approach on different helmeted and non-helmeted images. Experimental results show that the proposed method performs better when compared to other existing approaches with 94.70% helmet detection accuracy.},
+  keywords={Licenses;Motorcycles;Feature extraction;Training;Detectors;Testing;Cameras;helmet detection;YOLOv2;license plate extraction;COCO},
+  doi={10.1109/IPTA.2017.8310092},
+  ISSN={2154-512X},
+  month={Nov},}
 
-@article{einstein1950meaning,
-  abbr={AJP},
+@misc{nam2025visualpersonafoundationmodel,
+  abbr={Paper},
   bibtex_show={true},
-  title={The meaning of relativity},
-  author={Einstein, Albert and Taub, AH},
-  journal={American Journal of Physics},
-  volume={18},
-  number={6},
-  pages={403--404},
-  year={1950},
-  publisher={American Association of Physics Teachers}
+  abstract={We introduce Visual Persona, a foundation model for text-to-image full-body human customization that, given a single in-the-wild human image, generates diverse images of the individual guided by text descriptions. Unlike prior methods that focus solely on preserving facial identity, our approach captures detailed full-body appearance, aligning with text descriptions for body structure and scene variations. Training this model requires large-scale paired human data, consisting of multiple images per individual with consistent full-body identities, which is notoriously difficult to obtain. To address this, we propose a data curation pipeline leveraging vision-language models to evaluate full-body appearance consistency, resulting in Visual Persona-500K, a dataset of 580k paired human images across 100k unique identities. For precise appearance transfer, we introduce a transformer encoder-decoder architecture adapted to a pre-trained text-to-image diffusion model, which augments the input image into distinct body regions, encodes these regions as local appearance features, and projects them into dense identity embeddings independently to condition the diffusion model for synthesizing customized images. Visual Persona consistently surpasses existing approaches, generating high-quality, customized images from in-the-wild inputs. Extensive ablation studies validate design choices, and we demonstrate the versatility of Visual Persona across various downstream tasks.},
+      title={Visual Persona: Foundation Model for Full-Body Human Customization}, 
+      author={Jisu Nam and Soowon Son and Zhan Xu and Jing Shi and Difan Liu and Feng Liu and Aashish Misraa and Seungryong Kim and Yang Zhou},
+      year={2025},
+      eprint={2503.15406},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2503.15406},
+      html={https://cvlab-kaist.github.io/Visual-Persona/},
+      annotation={a version of this paper presented at CVPR 2025},
 }
 
-@article{PhysRev.47.777,
-  abbr={PhysRev},
-  title={Can Quantum-Mechanical Description of Physical Reality Be Considered Complete?},
-  author={Einstein*†, A. and Podolsky*, B. and Rosen*, N.},
-  abstract={In a complete theory there is an element corresponding to each element of reality. A sufficient condition for the reality of a physical quantity is the possibility of predicting it with certainty, without disturbing the system. In quantum mechanics in the case of two physical quantities described by non-commuting operators, the knowledge of one precludes the knowledge of the other. Then either (1) the description of reality given by the wave function in quantum mechanics is not complete or (2) these two quantities cannot have simultaneous reality. Consideration of the problem of making predictions concerning a system on the basis of measurements made on another system that had previously interacted with it leads to the result that if (1) is false then (2) is also false. One is thus led to conclude that the description of reality as given by a wave function is not complete.},
-  journal={Phys. Rev.},
-  location={New Jersey},
-  volume={47},
-  issue={10},
-  pages={777--780},
-  numpages={0},
-  year={1935},
-  month={May},
-  publisher=aps,
-  doi={10.1103/PhysRev.47.777},
-  url={http://link.aps.org/doi/10.1103/PhysRev.47.777},
-  html={https://journals.aps.org/pr/abstract/10.1103/PhysRev.47.777},
-  pdf={example_pdf.pdf},
-  altmetric={248277},
-  dimensions={true},
-  google_scholar_id={qyhmnyLat1gC},
-  video={https://www.youtube-nocookie.com/embed/aqz-KE-bpKQ},
-  additional_info={. *More Information* can be [found here](https://github.com/alshedivat/al-folio/)},
-  annotation={* Example use of superscripts<br>† Albert Einstein},
-  selected={true},
-  inspirehep_id = {3255}
-}
 
-@article{einstein1905molekularkinetischen,
-  title={{\"U}ber die von der molekularkinetischen Theorie der W{\"a}rme geforderte Bewegung von in ruhenden Fl{\"u}ssigkeiten suspendierten Teilchen},
-  author={Einstein, A.},
-  journal={Annalen der physik},
-  volume={322},
-  number={8},
-  pages={549--560},
-  year={1905},
-  publisher={Wiley Online Library}
-}
 
-@article{einstein1905movement,
-  abbr={Ann. Phys.},
-  title={Un the movement of small particles suspended in statiunary liquids required by the molecular-kinetic theory 0f heat},
-  author={Einstein, A.},
-  journal={Ann. Phys.},
-  volume={17},
-  pages={549--560},
-  year={1905}
-}
 
-@article{einstein1905electrodynamics,
-  title={On the electrodynamics of moving bodies},
-  author={Einstein, A.},
-  year={1905}
-}
 
-@Article{einstein1905photoelectriceffect,
+
+
+
+@article{sundararaman2017analysis,
+  abbr={Paper},
   bibtex_show={true},
-  abbr={Ann. Phys.},
-  title="{{\"U}ber einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt}",
-  author={Albert Einstein},
-  abstract={This is the abstract text.},
-  journal={Ann. Phys.},
-  volume={322},
-  number={6},
-  pages={132--148},
-  year={1905},
-  doi={10.1002/andp.19053220607},
-  award={Albert Einstein receveid the **Nobel Prize in Physics** 1921 *for his services to Theoretical Physics, and especially for his discovery of the law of the photoelectric effect*},
-  award_name={Nobel Prize}
+  author       = {Dhanasekar Sundararaman and
+                  Nabarun Pal and
+                  Aashish Kumar Misraa},
+  title        = {An analysis of non-immigrant work visas in the {USA} using Machine
+                  Learning},
+  journal      = {Int. J. Comput. Sci. Secur. (IJCSS)},
+  volume       = {6},
+  year         = {2017},
+  abstract = {High-skilled immigrants are a very important factor in US innovation and entrepreneurship, accounting for roughly a quarter of US workers in fields such as computer science and delivering in terms of patents or firm starts. Their contributions to the US is rapidly increasing in the past three decades and are found to be well trained and skilled on average than their native counterparts. While the impact of these high-skilled workers is signified, the way in which they compete to enter a tech hub like the US is rather not fair. H-1B, the work visa to import high-skilled workers, is not used for high skilled anymore but rather used to import cheap labor to displace native workers in many cases. Many billionaires, experts, pundits and even the government are looking for many amendments in H-1B to abolish this by bringing in a merit system or increasing the minimum wages to awarding these visas. We attempt to analyze the petitions filed by 2011-16 and classify the petitions filed as positive or negative, indicating whether the petition is highly skilled or not. After classifying, we build a model using Random Forest to predict any visa petition in any state of the US as positive or negative. Experimental results show the companies that are classified as abusing these visas (negative) are well consistent with the ones shown in reports and news articles},
 }
 
-@book{przibram1967letters,
-  bibtex_show={true},
-  title={Letters on wave mechanics},
-  author={Einstein, Albert and Schrödinger, Erwin and Planck, Max and Lorentz, Hendrik Antoon and Przibram, Karl},
-  year={1967},
-  publisher={Vision},
-  preview={wave-mechanics.gif},
-  abbr={Vision}
+# patents
+
+# Filing Date & Approval Data (might be pending)
+# Some have google patent id and some don't so might need to add the patenscope link
+https://patents.google.com/patent/US11500939B2/en -- this is approved
+
+https://patents.google.com/patent/US20250272885A1/en -- this is pending
+
+# Zero-shot person customization in diffusion model – US App. 19/372,643
+#Inventors:
+#Aashish Kumar Misraa
+#Pranav Vineet Aggarwal
+#Midhun Harikumar 
+
+@misc{patent_zero_shot_person_customization,
+  abbr        = {Patent},
+  author      = {Aashish Kumar Misraa and Pranav Aggarwal and Midhun Harikumar},
+  title       = {Zero-shot person customization in diffusion model},
+  year        = {2025},
+  month       = {Oct},
+  note        = {US App. 19/372,643},
 }
+
+@misc{patent_stacked_image_generation,
+  abbr        = {Patent},
+  author      = {Pranav Aggarwal and Aashish Kumar Misraa and Midhun Harikumar},
+  title       = {Stacked image generation for character consistency},
+  year        = {2025},
+  month       = {June},
+  note        = {US App. 19/238,852},
+}
+
+
+@misc{patent_multi_concept_adaptor,
+  abbr        = {Patent},
+  author      = {Yu-Jhe Li and Aashish Kumar Misraa and Midhun Harikumar},
+  title       = {Multi-concept adaptor learning of multi-modal LLM for image diffusion model},
+  year        = {2024},
+  month       = {Nov},
+  note        = {US App. 18/953,734},
+}
+
+
+
+@misc{patent_one_click_storyboarding,
+  abbr        = {Patent},
+  author      = {Pranav Aggarwal and Midhun Harikumar and Aashish Kumar Misraa},
+  title       = {One-click dynamic storyboarding using Text Guidance},
+  year        = {2024},
+  month       = {Oct},
+  note        = {US App. 18/916,140},
+  annotation={also filed in GB, CN, AU, DE}
+}
+
+
+@misc{patent_content_customization,
+  abbr        = {Patent},
+  author      = {Pranav Aggarwal and Aashish Kumar Misraa and He Zhang and Soo Ye Kim and Wei Xiong and Hareesh Ravi and Jing Shi and Midhun Harikumar and Zhe Lin and Eli Shechtman},
+  title       = {Content customization and composition in diffusion},
+  year        = {2024},
+  month       = {Oct},
+  note        = {US App. 18/913,107},
+  annotation={also filed in GB, CN, AU, DE}
+}
+
+
+@misc{patent_selfattentionreference,
+  abbr        = {Patent},
+  author      = {Nick Kolkin and Aashish Kumar Misraa and Midhun Harikumar and Eli Shechtman},
+  title       = {Self attention reference for improved diffusion personalization},
+  year        = {2024},
+  month       = {Aug},
+  note        = {US App. 18,187,915},
+  html        = {https://patents.google.com/patent/US20250272885A1/en}
+}
+
+@misc{patent_clio2,
+  abbr        = {Patent},
+  author      = {Hareesh Ravi and Aashish Kumar Misraa and Ajinkya Kale},
+  title       = {Modality specific learnable attention for multi-conditioned diffusion models},
+  year        = {2024},
+  month       = {Aug},
+  note        = {US App. 18/817,692},
+  html        = {https://patents.google.com/patent/US20250117972A1/en}
+}
+
+
+@misc{patent_dino_adapter,
+  abbr        = {Patent},
+  author      = {Pranav Aggarwal and Aashish Kumar Misraa and Midhun Harikumar and Jing Shi and He Zhang and Wei Xiong},
+  title       = {Score based fine grained control of concept generation using DINO adapter},
+  year        = {2024},
+  month       = {July},
+  note        = {US App. 18/785,914},
+}
+
+
+
+@misc{patent_facesearch,
+  abbr        = {Patent},
+  author      = {Ali Aminian and Aashish Kumar Misraa and Kshitiz Garg and Aseem Agarwala},
+  title       = {Tracking unique face identities in videos},
+  year        = {2022},
+  month       = {Nov},
+  note        = {US 12,412,419},
+  html        = {https://patents.google.com/patent/US12412419B2/en}
+}
+
+@misc{patent_morpheus,
+  abbr        = {Patent},
+  author      = {Han Guo and Kshitiz Garg and Ali Aminian and Aashish Misraa and William Marino and Nicolas Huynh Thien},
+  title       = {Processing framework for temporal-consistent face manipulation in videos},
+  year        = {2022},
+  month       = {May},
+  note        = {US App. 17/751,322},
+  html        = {https://patents.google.com/patent/US20230377339A1/en}
+}
+
+@misc{patent_textvos,
+  abbr        = {Patent},
+  author      = {Shivam Nalin Patel and Kshitiz Garg and Han Guo and Ali Aminian and Aashish Kumar Misraa},
+  title       = {Text-based framework for video object selection},
+  year        = {2021},
+  month       = {Nov},
+  note        = {US 12,266,181},
+  html        = {https://patents.google.com/patent/US12266181B2/en}
+}
+
+
+@misc{patent_blur,
+  abbr        = {Patent},
+  author      = {Aashish Kumar Misraa and Zhe Lin},
+  title       = {Blur classification and blur map estimation},
+  year        = {2021},
+  month       = {Mar},
+  note        = {US 11,816,181},
+  html        = {https://patents.google.com/patent/US11816181B2/en}
+}
+
+
+
+@misc{patent_gnn,
+  abbr        = {Patent},
+  author      = {Pranav Aggarwal and Ali Aminian and Ajinkya Kale and Aashish Kumar Misraa},
+  title       = {Unified framework for multi-modal similarity search},
+  year        = {2020},
+  month       = {Apr},
+  note        = {US 11,500,939},
+  html        = {https://patents.google.com/patent/US11500939B2/en},
+  annotation={also approved in GB, CN, AU, DE}
+}
+
+@misc{misraa2020multimodalretrievalusinggraph,
+  abbr={Paper},
+  bibtex_show={true},
+  abstract={Most real world applications of image retrieval such as Adobe Stock, which is a marketplace for stock photography and illustrations, need a way for users to find images which are both visually (i.e. aesthetically) and conceptually (i.e. containing the same salient objects) as a query image. Learning visual-semantic representations from images is a well studied problem for image retrieval. Filtering based on image concepts or attributes is traditionally achieved with index-based filtering (e.g. on textual tags) or by re-ranking after an initial visual embedding based retrieval. In this paper, we learn a joint vision and concept embedding in the same high-dimensional space. This joint model gives the user fine-grained control over the semantics of the result set, allowing them to explore the catalog of images more rapidly. We model the visual and concept relationships as a graph structure, which captures the rich information through node neighborhood. This graph structure helps us learn multi-modal node embeddings using Graph Neural Networks. We also introduce a novel inference time control, based on selective neighborhood connectivity allowing the user control over the retrieval algorithm. We evaluate these multi-modal embeddings quantitatively on the downstream relevance task of image retrieval on MS-COCO dataset and qualitatively on MS-COCO and an Adobe Stock dataset.},
+      title={Multi-Modal Retrieval using Graph Neural Networks}, 
+      author={Aashish Kumar Misraa and Ajinkya Kale and Pranav Aggarwal and Ali Aminian},
+      year={2020},
+      eprint={2010.01666},
+      archivePrefix={arXiv},
+      primaryClass={cs.IR},
+      url={https://arxiv.org/abs/2010.01666}, 
+      arxiv={2010.01666},
+      
+}
+
+@ARTICLE{2025arXiv250501446M,
+  abbr={Paper},
+       author = {{Misraa}, Aashish Kumar and {Jain}, Naman and {Dhakad}, Saurav Singh},
+      title = "{Waymo Driverless Car Data Analysis and Driving Modeling using CNN and LSTM}",
+      bibtex_show={true},
+        year = 2020,
+        arxiv = {2505.01446},
+        abstract = {Self driving cars has been the biggest innovation in the automotive industry, but to achieve human level accuracy or near human level accuracy is the biggest challenge that research scientists are facing today. Unlike humans autonomous vehicles do not work on instincts rather they make a decision based on the training data that has been fed to them using machine learning models using which they can make decisions in different conditions they face in the real world. With the advancements in machine learning especially deep learning the self driving car research skyrocketed. In this project we have presented multiple ways to predict acceleration of the autonomous vehicle using Waymo's open dataset. Our main approach was to using CNN to mimic human action and LSTM to treat this as a time series problem.},
+       eprint = {2505.01446},
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
