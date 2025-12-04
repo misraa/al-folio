@@ -63,9 +63,9 @@ max_width: 930px
 # -----------------------------------------------------------------------------
 # Display links to the page with a preview object on social media.
 # see https://schema.org/docs/faq.html for more information
-serve_og_meta: false # Include Open Graph meta tags in the HTML head
-serve_schema_org: false # Include Schema.org in the HTML head
-og_image: # The site-wide (default for all links) Open Graph preview image
+serve_og_meta: true # Include Open Graph meta tags in the HTML head
+serve_schema_org: true # Include Schema.org in the HTML head
+og_image: assets/img/prof_pic.png # The site-wide (default for all links) Open Graph preview image
 
 # -----------------------------------------------------------------------------
 # Analytics and search engine verification
@@ -391,7 +391,7 @@ enable_google_analytics: false # enables google analytics
 enable_cronitor_analytics: false # enables cronitor RUM analytics
 enable_pirsch_analytics: false # enables Pirsch analytics (https://pirsch.io/)
 enable_openpanel_analytics: false # enables Openpanel analytics (https://openpanel.dev/)
-enable_google_verification: false # enables google site verification
+enable_google_verification: true # enables google site verification
 enable_bing_verification: false # enables bing site verification
 enable_masonry: true # enables automatic project cards arrangement
 enable_math: true # enables math typesetting (uses MathJax)
@@ -653,3 +653,34 @@ jsonresume:
   - languages
   - interests
   - references
+
+# -----------------------------------------------------------------------------
+# Social Media (for Schema.org sameAs - helps with Google Knowledge Panel)
+# -----------------------------------------------------------------------------
+# These are used to generate the "sameAs" array in schema.org structured data
+# This helps Google connect all your profiles for Knowledge Panel eligibility
+# Note: Display of social icons is controlled separately by _data/socials.yml
+
+# Social profiles currently in use
+linkedin_username: misraaa
+x_username: themisraa
+scholar_userid: WEVBTxsAAAAJ
+semanticscholar_id: 29926277
+github_username: misraa
+orcid_id: 0009-0009-9731-6397
+dblp_url: https://dblp.org/pid/210/2222.html
+youtube_id: AashishMishra_Nygma
+
+# research_gate_profile: yourprofile
+# medium_username: yourusername
+# stackoverflow_id: yourid
+
+
+# scopus_id: yourid
+# publons_id: yourid
+# osf_id: yourid
+# kaggle_id: yourusername
+# keybase_username: yourusername
+# mastodon_username: instance.tld/@username
+# wikidata_id: Qxxxxxxx
+# wikipedia_id: YourUsername
