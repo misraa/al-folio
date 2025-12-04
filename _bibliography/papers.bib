@@ -1,6 +1,16 @@
 ---
 ---
 
+@article{zheng2025dual,
+  abbr={Paper},
+  bibtex_show={true},
+  title={DLA: Dual Layer Aggregation for Squeezing Capacity of Multimodal Large Language Models for Subject-driven Generation},
+  author={Shuhong Zheng and Aashish Kumar Misraa and Yu-Teng Li and Yu-Jhe Li and Igor Gilitschenski},
+  abstract={Subject-driven image generation aims to synthesize new images that preserve a given subject's identity while following textual instructions. Existing approaches often encode text and reference images separately. This limits multimodal reasoning abilities and causes copy-paste artifacts. Recent multimodal diffusion frameworks improve instruction following but largely overlook identity preservation. We propose a conditioning framework based on Multimodal Large Language Models (MLLMs) that jointly encode text and reference images, and augment it with VAE-based identity conditioning. A Dual Layer Aggregation (DLA) module aggregates multi-level MLLM features for optimal conditioning, and a multi-stage denoising strategy progressively balances MLLM semantics and VAE fine-detail refinement. Experiments demonstrate that our approach harmonizes multimodal features, mitigates copy-paste issues, and achieves superior semantic understanding and identity preservation in subject-driven image generation.},
+  year={2025},
+  note={<i>Under Review</i>},
+  preview={dla_teaser.png},
+}
 
 @INPROCEEDINGS{misraa2017helmet,
   bibtex_show={true},
@@ -16,8 +26,12 @@
   keywords={Licenses;Motorcycles;Feature extraction;Training;Detectors;Testing;Cameras;helmet detection;YOLOv2;license plate extraction;COCO},
   doi={10.1109/IPTA.2017.8310092},
   ISSN={2154-512X},
-  month={Nov},}
+  month={Nov},
+  preview={helmet_teaser.png},
+  }
 
+
+# adding a link in abstract 
 @misc{nam2025visualpersonafoundationmodel,
   abbr={Paper},
   bibtex_show={true},
@@ -30,7 +44,9 @@
       primaryClass={cs.CV},
       url={https://arxiv.org/abs/2503.15406},
       html={https://cvlab-kaist.github.io/Visual-Persona/},
-      annotation={a version of this paper presented at CVPR 2025},
+      note={<i>a version published at CVPR 2025</i>},
+      preview={visual_persona_teaser.png},
+
 }
 
 
@@ -73,40 +89,16 @@ https://patents.google.com/patent/US20250272885A1/en -- this is pending
   author      = {Aashish Kumar Misraa and Pranav Aggarwal and Midhun Harikumar},
   title       = {Zero-shot person customization in diffusion model},
   year        = {2025},
-  month       = {Oct},
+  month       = {Jan},
   note        = {US App. 19/372,643},
-}
-
-@misc{patent_stacked_image_generation,
-  abbr        = {Patent},
-  author      = {Pranav Aggarwal and Aashish Kumar Misraa and Midhun Harikumar},
-  title       = {Stacked image generation for character consistency},
-  year        = {2025},
-  month       = {June},
-  note        = {US App. 19/238,852},
-}
-
-
-@misc{patent_multi_concept_adaptor,
-  abbr        = {Patent},
-  author      = {Yu-Jhe Li and Aashish Kumar Misraa and Midhun Harikumar},
-  title       = {Multi-concept adaptor learning of multi-modal LLM for image diffusion model},
-  year        = {2024},
-  month       = {Nov},
-  note        = {US App. 18/953,734},
+  preview={cz_person_teaser.png},
 }
 
 
 
-@misc{patent_one_click_storyboarding,
-  abbr        = {Patent},
-  author      = {Pranav Aggarwal and Midhun Harikumar and Aashish Kumar Misraa},
-  title       = {One-click dynamic storyboarding using Text Guidance},
-  year        = {2024},
-  month       = {Oct},
-  note        = {US App. 18/916,140},
-  annotation={also filed in GB, CN, AU, DE}
-}
+
+
+
 
 
 @misc{patent_content_customization,
@@ -116,7 +108,40 @@ https://patents.google.com/patent/US20250272885A1/en -- this is pending
   year        = {2024},
   month       = {Oct},
   note        = {US App. 18/913,107},
-  annotation={also filed in GB, CN, AU, DE}
+  annotation={also filed in GB, CN, AU, DE},
+  preview={cz_teaser.png},
+}
+
+
+@misc{patent_one_click_storyboarding,
+  abbr        = {Patent},
+  author      = {Pranav Aggarwal and Midhun Harikumar and Aashish Kumar Misraa},
+  title       = {One-click dynamic storyboarding using Text Guidance},
+  year        = {2024},
+  month       = {Oct},
+  note        = {US App. 18/916,140},
+  annotation={also filed in GB, CN, AU, DE},
+  preview={storyboarding_teaser.png},
+}
+
+@misc{patent_multi_concept_adaptor,
+  abbr        = {Patent},
+  author      = {Yu-Jhe Li and Aashish Kumar Misraa and Midhun Harikumar},
+  title       = {Multi-concept adaptor learning of multi-modal LLM for image diffusion model},
+  year        = {2024},
+  month       = {Oct},
+  note        = {US App. 18/953,734},
+  preview={llava_unet_teaser.png},
+}
+
+@misc{patent_stacked_image_generation,
+  abbr        = {Patent},
+  author      = {Pranav Aggarwal and Aashish Kumar Misraa and Midhun Harikumar},
+  title       = {Stacked image generation for character consistency},
+  year        = {2024},
+  month       = {Oct},
+  note        = {US App. 19/238,852},
+  preview={stacked_teaser.png},
 }
 
 
@@ -127,7 +152,8 @@ https://patents.google.com/patent/US20250272885A1/en -- this is pending
   year        = {2024},
   month       = {Aug},
   note        = {US App. 18,187,915},
-  html        = {https://patents.google.com/patent/US20250272885A1/en}
+  html        = {https://patents.google.com/patent/US20250272885A1/en},
+  preview={selfattref_teaser.png},
 }
 
 @misc{patent_clio2,
@@ -137,7 +163,8 @@ https://patents.google.com/patent/US20250272885A1/en -- this is pending
   year        = {2024},
   month       = {Aug},
   note        = {US App. 18/817,692},
-  html        = {https://patents.google.com/patent/US20250117972A1/en}
+  html        = {https://patents.google.com/patent/US20250117972A1/en},
+  preview={sepca_teaser.png},
 }
 
 
@@ -148,6 +175,7 @@ https://patents.google.com/patent/US20250272885A1/en -- this is pending
   year        = {2024},
   month       = {July},
   note        = {US App. 18/785,914},
+  preview={dinoscore_teaser.png},
 }
 
 
@@ -159,7 +187,8 @@ https://patents.google.com/patent/US20250272885A1/en -- this is pending
   year        = {2022},
   month       = {Nov},
   note        = {US 12,412,419},
-  html        = {https://patents.google.com/patent/US12412419B2/en}
+  html        = {https://patents.google.com/patent/US12412419B2/en},
+  preview={facesearch_teaser.gif},
 }
 
 @misc{patent_morpheus,
@@ -169,7 +198,8 @@ https://patents.google.com/patent/US20250272885A1/en -- this is pending
   year        = {2022},
   month       = {May},
   note        = {US App. 17/751,322},
-  html        = {https://patents.google.com/patent/US20230377339A1/en}
+  html        = {https://patents.google.com/patent/US20230377339A1/en},
+  preview={morpheus_teaser.png},
 }
 
 @misc{patent_textvos,
@@ -179,7 +209,8 @@ https://patents.google.com/patent/US20250272885A1/en -- this is pending
   year        = {2021},
   month       = {Nov},
   note        = {US 12,266,181},
-  html        = {https://patents.google.com/patent/US12266181B2/en}
+  html        = {https://patents.google.com/patent/US12266181B2/en},
+  preview={senselect_teaser.gif},
 }
 
 
@@ -190,7 +221,8 @@ https://patents.google.com/patent/US20250272885A1/en -- this is pending
   year        = {2021},
   month       = {Mar},
   note        = {US 11,816,181},
-  html        = {https://patents.google.com/patent/US11816181B2/en}
+  html        = {https://patents.google.com/patent/US11816181B2/en},
+  preview={blur_teaser.png},
 }
 
 
@@ -203,7 +235,8 @@ https://patents.google.com/patent/US20250272885A1/en -- this is pending
   month       = {Apr},
   note        = {US 11,500,939},
   html        = {https://patents.google.com/patent/US11500939B2/en},
-  annotation={also approved in GB, CN, AU, DE}
+  annotation={also approved in GB, CN, AU, DE},
+  preview={sensage_inf_teaser.png},
 }
 
 @misc{misraa2020multimodalretrievalusinggraph,
@@ -218,6 +251,7 @@ https://patents.google.com/patent/US20250272885A1/en -- this is pending
       primaryClass={cs.IR},
       url={https://arxiv.org/abs/2010.01666}, 
       arxiv={2010.01666},
+      preview={sensage_teaser.png},
       
 }
 
@@ -230,7 +264,11 @@ https://patents.google.com/patent/US20250272885A1/en -- this is pending
         arxiv = {2505.01446},
         abstract = {Self driving cars has been the biggest innovation in the automotive industry, but to achieve human level accuracy or near human level accuracy is the biggest challenge that research scientists are facing today. Unlike humans autonomous vehicles do not work on instincts rather they make a decision based on the training data that has been fed to them using machine learning models using which they can make decisions in different conditions they face in the real world. With the advancements in machine learning especially deep learning the self driving car research skyrocketed. In this project we have presented multiple ways to predict acceleration of the autonomous vehicle using Waymo's open dataset. Our main approach was to using CNN to mimic human action and LSTM to treat this as a time series problem.},
        eprint = {2505.01446},
+       preview={waymo_teaser.png},
+       note={This work contributed to research acknowledged in <a href="https://www.mdpi.com/2076-3417/10/6/2046">MDPI Journal of Applied Sciences</a>
+       },
 }
+
 
 
 

@@ -760,6 +760,8 @@ footer.sticky-bottom {
       margin-bottom: 1rem;
 
       .preview {
+        width: 100%;
+        max-width: 100%;
       }
 
       .abbr {
@@ -788,11 +790,13 @@ footer.sticky-bottom {
 
       .title {
         font-weight: bolder;
+        font-size: 1.1rem;
       }
 
       .author {
         a {
           border-bottom: 1px dashed var(--global-theme-color);
+          font-size: 0.9rem;
 
           &:hover {
             border-bottom-style: solid;

@@ -52,6 +52,20 @@
   - firstname: ["Kshitiz"]
     url: https://scholar.google.com/citations?user=tWU6p0cAAAAJ&hl=en
 
+"zheng":
+  - firstname: ["Shuhong"]
+    url: https://zsh2000.github.io/
+
+"li":
+  - firstname: ["Kevin", "Yu-Teng"]
+    url: https://www.linkedin.com/in/yutengli/
+  - firstname: ["Yu-Jhe"]
+    url: https://yujheli.github.io/
+
+"gilitschenski":
+  - firstname: ["Igor"]
+    url: https://www.gilitschenski.org/igor/
+
 # "podolsky":
 #   - firstname: ["Boris", "B.", "B. Y.", "Boris Yakovlevich"]
 #     url: https://en.wikipedia.org/wiki/Boris_Podolsky
