@@ -1455,8 +1455,6 @@ figure.cover {
 // Hover image preview
 .hover-preview {
   position: relative;
-  cursor: pointer;
-  border-bottom: 1px dashed var(--global-theme-color);
 
   img {
     display: none;
