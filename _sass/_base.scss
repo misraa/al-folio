@@ -1451,3 +1451,27 @@ figure.cover {
     color: #23212d !important;
   }
 }
+
+// Hover image preview
+.hover-preview {
+  position: relative;
+  cursor: pointer;
+  border-bottom: 1px dashed var(--global-theme-color);
+
+  img {
+    display: none;
+    position: absolute;
+    bottom: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+    max-width: 300px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+    z-index: 100;
+    margin-bottom: 8px;
+  }
+
+  &:hover img {
+    display: block;
+  }
+}

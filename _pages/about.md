@@ -1,8 +1,11 @@
 ---
 layout: about
 title: about
-permalink: /
+permalink: /about/
 subtitle: learn ⇄ build; // memento mori
+nav: true
+nav_order: 1
+
 
 profile:
   align: right
@@ -34,6 +37,6 @@ latest_posts:
   
   <p>Obtained <strong>Master's in Computer Science</strong> from Columbia University and a <strong>Bachelor's in Electronics and Communication</strong> from the National Institute of Technology, Surat.</p>
 
-  <p>Beyond building intelligent systems, he's passionate about movies, music, riding motorcycle, or simply marveling at the night sky.</p>
+  <p>Beyond building intelligent systems, he's passionate about <a href="https://letterboxd.com/iaashish7/" target="_blank">movies</a>, music, riding motorcycle, or simply <a href="/assets/img/marvel.jpg" target="_blank" class="hover-preview">marveling at the night sky.<img src="/assets/img/marvel.jpg" alt="night sky"></a></p>
 
 </div>
