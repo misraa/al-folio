@@ -12,6 +12,26 @@
   preview={dla_teaser.png},
 }
 
+
+@misc{layered_image_editing,
+  abbr={Product},
+  title={Layered Image Editing},
+  year={2025},
+  preview={layered_image_editing_teaser.png},
+  video={https://blog.adobe.com/media_1345e72bda1f24a216dcad2f680a89969d3cc3923.mp4},
+  note={<i>part of V5 release</i>},
+  abstract={Layered Image Editing enables precise, context-aware compositing that keeps every change perfectly coherent. Automatically separates objects in an image onto different layers, making it easier to reposition, resize, or replace them.},
+
+}
+
+@misc{adobe_firefly_image_v5,
+  abbr        = {Product},
+  title       = {Firefly Image Generation & Editing V5},
+  year        = {2025},
+  preview={adobe_firefly_five.webp},
+  html={https://blog.adobe.com/en/publish/2025/10/28/explore-new-adobe-firefly-your-all-in-one-home-ai-powered-creativity},
+}
+
 @INPROCEEDINGS{misraa2017helmet,
   bibtex_show={true},
   abbr={Paper},
@@ -67,22 +87,8 @@
   journal      = {Int. J. Comput. Sci. Secur. (IJCSS)},
   volume       = {6},
   year         = {2017},
-  abstract = {High-skilled immigrants are a very important factor in US innovation and entrepreneurship, accounting for roughly a quarter of US workers in fields such as computer science and delivering in terms of patents or firm starts. Their contributions to the US is rapidly increasing in the past three decades and are found to be well trained and skilled on average than their native counterparts. While the impact of these high-skilled workers is signified, the way in which they compete to enter a tech hub like the US is rather not fair. H-1B, the work visa to import high-skilled workers, is not used for high skilled anymore but rather used to import cheap labor to displace native workers in many cases. Many billionaires, experts, pundits and even the government are looking for many amendments in H-1B to abolish this by bringing in a merit system or increasing the minimum wages to awarding these visas. We attempt to analyze the petitions filed by 2011-16 and classify the petitions filed as positive or negative, indicating whether the petition is highly skilled or not. After classifying, we build a model using Random Forest to predict any visa petition in any state of the US as positive or negative. Experimental results show the companies that are classified as abusing these visas (negative) are well consistent with the ones shown in reports and news articles},
+  abstract = {High-skilled immigrants are a very important factor in US innovation and entrepreneurship, accounting for roughly a quarter of US workers in fields such as computer science and delivering in terms of patents or firm starts. Their contributions to the US is rapidly increasing in the past three decades and are found to be well trained and skilled on average than their native counterparts. While the impact of these high-skilled workers is signified, the way in which they compete to enter a tech hub like the US is rather not fair. H-1B, the work visa to import high-skilled workers, is not used for high skilled anymore but rather used to import cheap labor to displace native workers in many cases. Many billionaires, experts, pundits and even the government are looking for many amendments in H-1B to abolish this by bringing in a merit system or increasing the minimum wages to awarding these visas. We attempt to analyze the petitions filed by 2011-16 and classify the petitions filed as positive or negative, indicating whether the petition is highly skilled or not. After classifying, we build a model using Random Forest to predict any visa petition in any state of the US as positive or negative. Experimental results show the companies that are classified as abusing these visas (negative) are well consistent with the ones shown in reports and news articles.},
 }
-
-# patents
-
-# Filing Date & Approval Data (might be pending)
-# Some have google patent id and some don't so might need to add the patenscope link
-https://patents.google.com/patent/US11500939B2/en -- this is approved
-
-https://patents.google.com/patent/US20250272885A1/en -- this is pending
-
-# Zero-shot person customization in diffusion model – US App. 19/372,643
-#Inventors:
-#Aashish Kumar Misraa
-#Pranav Vineet Aggarwal
-#Midhun Harikumar 
 
 @misc{patent_zero_shot_person_customization,
   abbr        = {Patent},
@@ -92,10 +98,30 @@ https://patents.google.com/patent/US20250272885A1/en -- this is pending
   month       = {Jan},
   note        = {US App. 19/372,643},
   preview={cz_person_teaser.png},
+  abstract={We propose a zero-shot method for personalized image generation, enabling the creation of images that accurately capture a subject’s face and appearance without additional fine-tuning. Leveraging a novel dual-embedding technique that integrates both sparse and dense features, our approach ensures high-fidelity identity and likeness preservation for faces and clothing, while maintaining image realism. Key innovations include identity preservation without leakage, composition locking, robust face-clothing blending, and multi-character interpolation. This enables efficient generation of coherent and customizable personas for applications such as storyboarding and advertising.},
+}
+
+@misc{culling,
+  abbr        = {Product},
+  title       = {Selecting Best Photos with Assisted Culling},
+  month       = {Dec},
+  year        = {2021},
+  preview={culling.avif},
+  html={https://helpx.adobe.com/lightroom-classic/help/assisted-culling.html},
+  abstract={Assisted Culling in Lightroom Classic uses AI to help users quickly identify and organize their best photos by selecting high-quality images and filtering out low-quality or unwanted shots. The feature provides flexible controls to prioritize subject or eye focus, reject images with closed or indiscernible eyes, misfires, documents, or exposure issues, and batch-organize results. Assisted Culling streamlines the culling process and enables efficient album and folder management with easy filtering, stacking, and batch actions.},
+  note={<i>contributions include <u>blur estimation</u>, <u>eye focus</u>, <u>best frame detection</u> and <u>model compression</u></i>},
 }
 
 
-
+@misc{firefly_custom_models,
+  abbr        = {Product},
+  title       = {Firefly Custom Models},
+  month       = {Nov},
+  year        = {2024},
+  preview={firefly_custom_models.webp},
+  html={https://business.adobe.com/products/firefly-business/custom-models.html},
+  abstract={Train Firefly models with your own brand assets to create tailored, commercially safe content. Easily preview, refine, and manage models to ensure content matches your audience and brand vision.},
+}
 
 
 
@@ -110,8 +136,8 @@ https://patents.google.com/patent/US20250272885A1/en -- this is pending
   note        = {US App. 18/913,107},
   annotation={also filed in GB, CN, AU, DE},
   preview={cz_teaser.png},
+  abstract={We present a unified diffusion-based framework for content customization and composition in images. Unlike traditional approaches that require separate specialized models and expensive fine-tuning for tasks such as custom image generation, object insertion, and localized editing, our method performs all these operations via a single model and novel training and inference strategies. Key innovations include generic content insertion and harmonization into user-provided backgrounds, text- and image-conditioned editing and styling, attention-based blending for seamless integration, and consistent object style control—all without the need for per-object fine-tuning at inference. This enables scalable, efficient, and flexible image creation and editing.},
 }
-
 
 @misc{patent_one_click_storyboarding,
   abbr        = {Patent},
@@ -122,6 +148,7 @@ https://patents.google.com/patent/US20250272885A1/en -- this is pending
   note        = {US App. 18/916,140},
   annotation={also filed in GB, CN, AU, DE},
   preview={storyboarding_teaser.png},
+  abstract={We introduce a system for dynamic, one-click storyboarding using text guidance. Our approach streamlines the traditionally manual and multi-person workflow of storyboarding by allowing users to generate, edit, and expand storyboard panes with simple prompts. Key features include single-prompt storyboard variation, character embedding, independent and global pane editing, and a chat-based interface, enabling rapid, iterative, and unified narrative creation.},
 }
 
 @misc{patent_multi_concept_adaptor,
@@ -132,6 +159,7 @@ https://patents.google.com/patent/US20250272885A1/en -- this is pending
   month       = {Oct},
   note        = {US App. 18/953,734},
   preview={llava_unet_teaser.png},
+  abstract={We introduce a unified framework for multi-concept content creation using a multi-modal LLM (M-LLM) adaptor for image diffusion models. Our method fuses visual and textual inputs by learning a unified feature representation—enabling tasks such as content customization, composition, and image generation from simple text/image prompts. Key innovations include a training pipeline that requires only single-object data (no multi-concept datasets), keeps the M-LLM frozen, and relies solely on adapter and decoder training through a two-stage fine-tuning process. No fine-tuning is needed at inference, enabling efficient, scalable multi-concept image synthesis from flexible multi-modal inputs.},
 }
 
 @misc{patent_stacked_image_generation,
@@ -142,6 +170,7 @@ https://patents.google.com/patent/US20250272885A1/en -- this is pending
   month       = {Oct},
   note        = {US App. 19/238,852},
   preview={stacked_teaser.png},
+  abstract={We introduce a method for stacked image generation to enhance character consistency in AI-driven image creation. Our approach enables the synthesis of multiple, character-consistent images—across various poses and views—from a single model, with or without reference images. Stacking these generated images allows for rapid preview and variation, while an attention-based inference technique improves diversity in background and lighting. This framework supports efficient data augmentation for tasks such as identity preservation and 3D reconstruction, advancing character-consistent image generation for creative applications.},
 }
 
 
@@ -154,6 +183,7 @@ https://patents.google.com/patent/US20250272885A1/en -- this is pending
   note        = {US App. 18,187,915},
   html        = {https://patents.google.com/patent/US20250272885A1/en},
   preview={selfattref_teaser.png},
+  abstract={Describes systems and methods for improved image processing using reference images and text prompts. The technique involves obtaining a reference image and an input prompt describing an image element, identifying an object within the reference image, generating image features of the object, and synthesizing a new image that depicts both the described image element and the referenced object. This process enables more accurate and flexible manipulation of generated images by leveraging both textual and visual inputs.},
 }
 
 @misc{patent_clio2,
@@ -165,8 +195,72 @@ https://patents.google.com/patent/US20250272885A1/en -- this is pending
   note        = {US App. 18/817,692},
   html        = {https://patents.google.com/patent/US20250117972A1/en},
   preview={sepca_teaser.png},
+  abstract={Describes a method and system for multi-conditioned image generation via joint processing of textual and visual prompts. The technique involves encoding a text prompt to derive a text embedding and encoding an image prompt to obtain an image embedding. Cross-attention is applied separately to the text and image embeddings, producing corresponding attention outputs. These outputs are then fused to guide an image generation model, enabling the synthesis of images that effectively reflect both the semantic content of the text and the characteristics of the reference image.},
 }
 
+# Adobe Firefly Image Generation
+# https://news.adobe.com/news/news-details/2023/adobe-releases-next-generation-of-firefly-models
+@misc{firefly2_style,
+  abbr        = {Product},
+  title       = {Generative Image Stylization},
+  year        = {2024},
+  preview={firefly2_style.png},
+  note={<i>part of V2 release</i>},
+  abstract={Zero-shot stylized image generation enables creation of an image conditioned on a text prompt and a style reference image, allowing flexible synthesis in the style of the provided reference. This feature is part of Adobe Firefly Image Generation V2.},
+}
+@misc{firefly2_structure,
+  abbr        = {Product},
+  title       = {Generative Image Structure Match},
+  year        = {2024},
+  preview={firefly2_structure.png},
+  note={<i>part of V2 release</i>},
+  abstract={Structure Match enables generating an image conditioned on a text prompt and a reference image to match the structure or composition of the reference image. This allows users to generate new content while preserving the layout, pose, or general arrangement present in the reference. Part of Adobe Firefly Image Generation V2.},
+}
+@misc{firefly2_photo,
+  abbr        = {Product},
+  title       = {Generative Image Content Control},
+  year        = {2024},
+  preview={firefly2_photo.png},
+  note={<i>part of V2 release</i>},
+  abstract={Provides control over the photorealism and creative style of generated images, supporting types such as "photorealistic", "illustration", and more. For photographic generations, additional controls over attributes such as EXIF parameters (e.g., aperture, ISO, focal length) are available, enabling fine-grained adjustment of content and image aesthetics.},
+}
+@misc{adobe_firefly_image_v2,
+  abbr        = {Product},
+  title       = {Firefly Image Generation V2},
+  year        = {2024},
+  preview={adobe_firefly_two.avif},
+  html={https://news.adobe.com/news/news-details/2023/adobe-releases-next-generation-of-firefly-models},
+}
+
+# Adobe Firefly Image Generation
+# html: https://news.adobe.com/news/news-details/2023/adobe-unveils-firefly-a-family-of-new-creative-generative-ai
+@misc{adobe_firefly_image_v1,
+  abbr        = {Product},
+  title       = {Firefly Image Generation V1},
+  year        = {2023},
+  preview={adobe_firefly.jpg},
+  html={https://news.adobe.com/news/news-details/2023/adobe-unveils-firefly-a-family-of-new-creative-generative-ai},
+}
+
+@misc{project_blink,
+  abbr        = {Product},
+  title       = {Blink: AI-powered video editing},
+  year        = {2023},
+  preview={project_blink.jpg},
+  html={https://research.adobe.com/news/project-blink-creating-the-future-of-ai-powered-video-editing/},
+  video={https://www.youtube.com/watch?v=8JbhWih-wro},
+  abstract={Project Blink is an AI-powered video editing platform that enables users to edit video as easily as text. It automatically transcribes video content, allowing users to cut, copy, paste, and delete video segments simply by editing the transcript. Project Blink streamlines workflows such as removing filler words, searching for spoken phrases, and rapidly assembling rough cuts, making video editing faster and more accessible for everyone.},
+  note={<i>contributions include <u>video defect detection</u>, <u>face re-identification</u>, and <u>moments of interest detection</u></i>},
+}
+
+@misc{remove_background,
+  abbr        = {Product},
+  title       = {Remove Video Background},
+  year        = {2023},
+  preview={remove_background.avif},
+  html={https://helpx.adobe.com/express/web/video-creation-and-editing/edit-videos/remove-background-videos.html},
+  video={https://www.youtube.com/watch?v=sFtZEF-jiKI},
+}
 
 @misc{patent_dino_adapter,
   abbr        = {Patent},
@@ -176,6 +270,7 @@ https://patents.google.com/patent/US20250272885A1/en -- this is pending
   month       = {July},
   note        = {US App. 18/785,914},
   preview={dinoscore_teaser.png},
+  abstract={This invention addresses the challenge of customizing text-to-image models for new concepts without the need for additional finetuning. It enables fine-grained control over concept attributes, such as adjusting how closely the generated content matches a reference image or modifying the size of the concept within the output. The approach provides flexible, dynamic manipulation of concepts during inference, streamlining customization and control for users.},
 }
 
 
@@ -189,6 +284,7 @@ https://patents.google.com/patent/US20250272885A1/en -- this is pending
   note        = {US 12,412,419},
   html        = {https://patents.google.com/patent/US12412419B2/en},
   preview={facesearch_teaser.gif},
+  abstract={This technology enables automated identification and tracking of unique face identities in videos. Detected faces across video frames are linked using object tracking to form tracklets—sequences of consecutive frames containing the same individual. Advanced clustering techniques group these tracklets by analyzing facial feature vectors, resulting in accurate identity clusters. The identities and their associated frame sequences are stored in a datastore, facilitating efficient face-based video search and retrieval. This approach significantly improves accuracy and scalability compared to traditional frame-by-frame analysis.},
 }
 
 @misc{patent_morpheus,
@@ -200,7 +296,26 @@ https://patents.google.com/patent/US20250272885A1/en -- this is pending
   note        = {US App. 17/751,322},
   html        = {https://patents.google.com/patent/US20230377339A1/en},
   preview={morpheus_teaser.png},
+  abstract={This patent addresses the challenge of generating temporally consistent manipulated videos. The disclosed method receives a target appearance and an input digital video composed of multiple frames, then generates target appearance frames based on the input. A video prediction network is trained to modify the appearance of the subject in the input video to match the target, resulting in an output video where changes are smoothly propagated over time, minimizing visual artifacts and ensuring natural, coherent transformations across frames. This approach enhances temporal consistency and realism for facial or identity manipulations in video editing applications.},
 }
+@misc{project_morpheus,
+  abbr        = {Product},
+  title       = {Morpheus: temporal-consistent face manipulations in videos},
+  year        = {2022},
+  preview={project_morpheus.gif},
+  html={https://www.engadget.com/adobe-max-sneaks-project-morpheus-183702995.html},
+  video={https://www.youtube.com/watch?v=bpABm6XcRMw},
+  abstract={Project Morpheus uses generative AI to realistically edit facial expressions, age, and speech in videos while preserving identity and quality and temporal consistency.},
+}
+
+@misc{facesearch_ppro,
+  abbr        = {Product},
+  title       = {Face Detection & Identification in After Effects, Premiere Pro, and Elements workflows},
+  year        = {2022},
+  preview={facesearch_ppro.avif},
+  html={https://helpx.adobe.com/uk/elements-organizer/using/adding-people.html},
+}
+
 
 @misc{patent_textvos,
   abbr        = {Patent},
@@ -211,6 +326,7 @@ https://patents.google.com/patent/US20250272885A1/en -- this is pending
   note        = {US 12,266,181},
   html        = {https://patents.google.com/patent/US12266181B2/en},
   preview={senselect_teaser.gif},
+  abstract={This patent discloses a method for selecting objects in videos using text input. A user provides a textual description and an input video with multiple frames. The system extracts features from the text and the video frames, identifies keyframes containing the target object, and groups these keyframes. For each group, segmentation masks are generated. Reference masks related to the user's input and the object are also identified. These segmentation and reference masks are then fused into composite masks, which are propagated throughout the video to produce accurate, temporally-coherent masks that correspond to the object specified by the user. The approach improves precision and consistency of video object selection based on flexible natural language prompts.},
 }
 
 
@@ -223,8 +339,18 @@ https://patents.google.com/patent/US20250272885A1/en -- this is pending
   note        = {US 11,816,181},
   html        = {https://patents.google.com/patent/US11816181B2/en},
   preview={blur_teaser.png},
+  abstract={Describes systems and methods for automated blur detection and blur map estimation in images. A training set is constructed with a first image labeled for blur classification and a second image paired with a ground truth blur map. Both images are encoded using a shared image encoder to produce embedded representations. For the first image, a classification layer predicts whether the image is blurred; for the second, a map decoder estimates a pixel-wise blur map. Classification and map losses are computed against respective ground truths, enabling joint training of the encoder, classification, and map decoder modules. This approach allows simultaneous, efficient learning of both global (classification) and local (map estimation) blur characteristics for improved performance.},
 }
 
+@misc{stock_shot,
+  abbr        = {Product},
+  title       = {Shot angle and size classifiers for stock videos and images},
+  year        = {2021},
+  preview={stock_shot.jpeg},
+  video={https://blog.adobe.com/media_1ca8c9949afb040b51f670874ec7e3ddef226e06b.mp4},
+  html={https://blog.adobe.com/en/publish/2021/10/26/whats-new-adobe-stock-2021},
+  abstract={Introduces Shot Size and Shot Angle video filters, enabling refined searches by framing and perspective (e.g., close-up, long shot, top-down, low angle, eye level) within its extensive 20-million-clip video library. These advanced filters streamline discovery of high-quality, royalty-free video content by allowing users to quickly find clips that match specific creative needs.},
+}
 
 
 @misc{patent_gnn,
@@ -237,13 +363,14 @@ https://patents.google.com/patent/US20250272885A1/en -- this is pending
   html        = {https://patents.google.com/patent/US11500939B2/en},
   annotation={also approved in GB, CN, AU, DE},
   preview={sensage_inf_teaser.png},
+  abstract={This patent presents a unified framework for multi-modal similarity search, enabling efficient retrieval across different data types such as images, text, and audio. The disclosed system determines the modality of a query object, then generates an embedding by leveraging both the object's features and the relationships between the object and its neighbors within a graph structure. By modeling connections between diverse types of data, the approach enhances retrieval accuracy and relevance. The resulting embedding allows for flexible, high-quality similarity search in varied applications—including recommending related content, organizing large datasets, and supporting cross-modal queries—by capturing both intra-modal and inter-modal relationships in a scalable manner.},
 }
 
 @misc{misraa2020multimodalretrievalusinggraph,
   abbr={Paper},
   bibtex_show={true},
   abstract={Most real world applications of image retrieval such as Adobe Stock, which is a marketplace for stock photography and illustrations, need a way for users to find images which are both visually (i.e. aesthetically) and conceptually (i.e. containing the same salient objects) as a query image. Learning visual-semantic representations from images is a well studied problem for image retrieval. Filtering based on image concepts or attributes is traditionally achieved with index-based filtering (e.g. on textual tags) or by re-ranking after an initial visual embedding based retrieval. In this paper, we learn a joint vision and concept embedding in the same high-dimensional space. This joint model gives the user fine-grained control over the semantics of the result set, allowing them to explore the catalog of images more rapidly. We model the visual and concept relationships as a graph structure, which captures the rich information through node neighborhood. This graph structure helps us learn multi-modal node embeddings using Graph Neural Networks. We also introduce a novel inference time control, based on selective neighborhood connectivity allowing the user control over the retrieval algorithm. We evaluate these multi-modal embeddings quantitatively on the downstream relevance task of image retrieval on MS-COCO dataset and qualitatively on MS-COCO and an Adobe Stock dataset.},
-      title={Multi-Modal Retrieval using Graph Neural Networks}, 
+      title={Multi-modal retrieval using graph neural networks}, 
       author={Aashish Kumar Misraa and Ajinkya Kale and Pranav Aggarwal and Ali Aminian},
       year={2020},
       eprint={2010.01666},
@@ -258,7 +385,7 @@ https://patents.google.com/patent/US20250272885A1/en -- this is pending
 @ARTICLE{2025arXiv250501446M,
   abbr={Paper},
        author = {{Misraa}, Aashish Kumar and {Jain}, Naman and {Dhakad}, Saurav Singh},
-      title = "{Waymo Driverless Car Data Analysis and Driving Modeling using CNN and LSTM}",
+      title = "{Waymo driverless car data analysis and driving modeling using CNN and LSTM}",
       bibtex_show={true},
         year = 2020,
         arxiv = {2505.01446},
@@ -271,7 +398,19 @@ https://patents.google.com/patent/US20250272885A1/en -- this is pending
 
 
 
-
+@misc{scilab_patches,
+  abbr        = {OSS},
+  title       = {Scilab: Memory & Performance Improvements},
+  year        = {2017},
+  preview     = {scilab.png},
+  html        = {https://gitlab.com/search?search=iaashish7&nav_source=navbar&project_id=39030145&group_id=1609406&scope=wiki_blobs},
+  abstract    = {
+    Contributed upstream patches to Scilab focused on memory efficiency and
+    performance improvements. The work involved identifying bottlenecks,
+    debugging low-level issues, and proposing fixes that were reviewed and
+    integrated into the open-source Scilab codebase.
+  },
+}
 
 
 

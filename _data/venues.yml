@@ -5,8 +5,19 @@
 "PhysRev":
   url: https://journals.aps.org/
 
-"Patent":
-  color: "#009f36"
 
 "Patent App.":
   color: "#009f36"
+
+"Patent":
+  # color: "#009f36"
+  color: "#3A7F5A"
+
+"Paper":
+  color: "#3B5B8A"
+
+"Product":
+  color: "#5A4B7C"
+
+"OSS":
+  color: "#6A6F3C"
