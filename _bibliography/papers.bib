@@ -4,12 +4,14 @@
 @article{zheng2025dual,
   abbr={Paper},
   bibtex_show={true},
-  title={DLA: Dual Layer Aggregation for Squeezing Capacity of Multimodal Large Language Models for Subject-driven Generation},
+  title={Squeezing Capacity from Multimodal Large Language Models for Subject-driven Generation},
   author={Shuhong Zheng and Aashish Kumar Misraa and Yu-Teng Li and Yu-Jhe Li and Igor Gilitschenski},
-  abstract={Subject-driven image generation aims to synthesize new images that preserve a given subject's identity while following textual instructions. Existing approaches often encode text and reference images separately. This limits multimodal reasoning abilities and causes copy-paste artifacts. Recent multimodal diffusion frameworks improve instruction following but largely overlook identity preservation. We propose a conditioning framework based on Multimodal Large Language Models (MLLMs) that jointly encode text and reference images, and augment it with VAE-based identity conditioning. A Dual Layer Aggregation (DLA) module aggregates multi-level MLLM features for optimal conditioning, and a multi-stage denoising strategy progressively balances MLLM semantics and VAE fine-detail refinement. Experiments demonstrate that our approach harmonizes multimodal features, mitigates copy-paste issues, and achieves superior semantic understanding and identity preservation in subject-driven image generation.},
-  year={2025},
-  note={<i>Under Review</i>},
+  abstract={Subject-driven image generation aims to synthesize new images that preserve the identity of the given subject while following textual instructions. Existing approaches often encode text and reference images separately. This limits cross-modal reasoning abilities and causes copy-paste artifacts. Recent frameworks that connect multimodal models and diffusion models improve instruction following, but largely overlook identity preservation. To address these limitations, we condition diffusion models on Multimodal Large Language Models (MLLMs) that jointly encode text and reference images, and augment it with VAE-based identity conditioning. A novel Dual Layer Aggregation (DLA) module is designed to aggregate multi-level MLLM features for optimal conditioning, and a multi-stage denoising strategy is applied to progressively balance the semantic information from MLLM and fine-detail identity from VAE during inference. Extensive experiments demonstrate that our approach harmonizes multimodal understanding with identity preservation, mitigates copy-paste issues, and achieves superior performance regarding human preference on subject-driven image generation.},
+  year={2026},
+  note={<i>Conference on Neural Information Processing Systems (<b>NeurIPS</b>), 2026</i>},
   preview={dla_teaser.png},
+  url={https://arxiv.org/abs/2605.26111},
+  html={https://zsh2000.github.io/squeeze-mllm-subject-gen/},
 }
 
 
@@ -64,7 +66,7 @@
       primaryClass={cs.CV},
       url={https://arxiv.org/abs/2503.15406},
       html={https://cvlab-kaist.github.io/Visual-Persona/},
-      note={<i>a version published at CVPR 2025</i>},
+      note={<i>Conference on Computer Vision and Pattern Recognition (<b>CVPR</b>), 2025</i>},
       preview={visual_persona_teaser.png},
 
 }
